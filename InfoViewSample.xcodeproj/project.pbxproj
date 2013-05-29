@@ -19,17 +19,21 @@
 		3179A0871755D70100DD5771 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3179A0861755D70100DD5771 /* TRViewController.m */; };
 		3179A08A1755D70100DD5771 /* TRViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3179A0881755D70100DD5771 /* TRViewController_iPhone.xib */; };
 		3179A08D1755D70100DD5771 /* TRViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3179A08B1755D70100DD5771 /* TRViewController_iPad.xib */; };
+		3179A0951756623200DD5771 /* TRInfoViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3179A0941756623200DD5771 /* TRInfoViewViewController.m */; };
+		3179A0981756648800DD5771 /* readme.html in Resources */ = {isa = PBXBuildFile; fileRef = 3179A0971756648800DD5771 /* readme.html */; };
+		3179A09B175664CA00DD5771 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 3179A099175664CA00DD5771 /* styles.css */; };
+		3179A09C175664CA00DD5771 /* cream_dust.png in Resources */ = {isa = PBXBuildFile; fileRef = 3179A09A175664CA00DD5771 /* cream_dust.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3179A06A1755D70000DD5771 /* WebInfoViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebInfoViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3179A06A1755D70000DD5771 /* InfoViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3179A06D1755D70000DD5771 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3179A06F1755D70000DD5771 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3179A0711755D70000DD5771 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3179A0751755D70000DD5771 /* WebInfoViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebInfoViewSample-Info.plist"; sourceTree = "<group>"; };
+		3179A0751755D70000DD5771 /* InfoViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfoViewSample-Info.plist"; sourceTree = "<group>"; };
 		3179A0771755D70100DD5771 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3179A0791755D70100DD5771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3179A07B1755D70100DD5771 /* WebInfoViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebInfoViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		3179A07B1755D70100DD5771 /* InfoViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfoViewSample-Prefix.pch"; sourceTree = "<group>"; };
 		3179A07C1755D70100DD5771 /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
 		3179A07D1755D70100DD5771 /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
 		3179A07F1755D70100DD5771 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -39,6 +43,11 @@
 		3179A0861755D70100DD5771 /* TRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
 		3179A0891755D70100DD5771 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TRViewController_iPhone.xib; sourceTree = "<group>"; };
 		3179A08C1755D70100DD5771 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TRViewController_iPad.xib; sourceTree = "<group>"; };
+		3179A0931756623200DD5771 /* TRInfoViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRInfoViewViewController.h; path = WebInfoViewSample/TRInfoViewViewController.h; sourceTree = "<group>"; };
+		3179A0941756623200DD5771 /* TRInfoViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRInfoViewViewController.m; path = WebInfoViewSample/TRInfoViewViewController.m; sourceTree = "<group>"; };
+		3179A0971756648800DD5771 /* readme.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = readme.html; sourceTree = "<group>"; };
+		3179A099175664CA00DD5771 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		3179A09A175664CA00DD5771 /* cream_dust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cream_dust.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +67,8 @@
 		3179A0611755D70000DD5771 = {
 			isa = PBXGroup;
 			children = (
-				3179A0731755D70000DD5771 /* WebInfoViewSample */,
+				3179A0731755D70000DD5771 /* InfoViewSample App */,
+				3179A0961756641200DD5771 /* TRInfoView */,
 				3179A06C1755D70000DD5771 /* Frameworks */,
 				3179A06B1755D70000DD5771 /* Products */,
 			);
@@ -67,7 +77,7 @@
 		3179A06B1755D70000DD5771 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3179A06A1755D70000DD5771 /* WebInfoViewSample.app */,
+				3179A06A1755D70000DD5771 /* InfoViewSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +92,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3179A0731755D70000DD5771 /* WebInfoViewSample */ = {
+		3179A0731755D70000DD5771 /* InfoViewSample App */ = {
 			isa = PBXGroup;
 			children = (
 				3179A07C1755D70100DD5771 /* TRAppDelegate.h */,
@@ -93,16 +103,17 @@
 				3179A08B1755D70100DD5771 /* TRViewController_iPad.xib */,
 				3179A0741755D70000DD5771 /* Supporting Files */,
 			);
+			name = "InfoViewSample App";
 			path = WebInfoViewSample;
 			sourceTree = "<group>";
 		};
 		3179A0741755D70000DD5771 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3179A0751755D70000DD5771 /* WebInfoViewSample-Info.plist */,
+				3179A0751755D70000DD5771 /* InfoViewSample-Info.plist */,
 				3179A0761755D70100DD5771 /* InfoPlist.strings */,
 				3179A0791755D70100DD5771 /* main.m */,
-				3179A07B1755D70100DD5771 /* WebInfoViewSample-Prefix.pch */,
+				3179A07B1755D70100DD5771 /* InfoViewSample-Prefix.pch */,
 				3179A07F1755D70100DD5771 /* Default.png */,
 				3179A0811755D70100DD5771 /* Default@2x.png */,
 				3179A0831755D70100DD5771 /* Default-568h@2x.png */,
@@ -110,12 +121,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3179A0961756641200DD5771 /* TRInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				3179A0931756623200DD5771 /* TRInfoViewViewController.h */,
+				3179A0941756623200DD5771 /* TRInfoViewViewController.m */,
+				3179A0971756648800DD5771 /* readme.html */,
+				3179A099175664CA00DD5771 /* styles.css */,
+				3179A09A175664CA00DD5771 /* cream_dust.png */,
+			);
+			name = TRInfoView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3179A0691755D70000DD5771 /* WebInfoViewSample */ = {
+		3179A0691755D70000DD5771 /* InfoViewSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3179A0901755D70100DD5771 /* Build configuration list for PBXNativeTarget "WebInfoViewSample" */;
+			buildConfigurationList = 3179A0901755D70100DD5771 /* Build configuration list for PBXNativeTarget "InfoViewSample" */;
 			buildPhases = (
 				3179A0661755D70000DD5771 /* Sources */,
 				3179A0671755D70000DD5771 /* Frameworks */,
@@ -125,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = WebInfoViewSample;
+			name = InfoViewSample;
 			productName = WebInfoViewSample;
-			productReference = 3179A06A1755D70000DD5771 /* WebInfoViewSample.app */;
+			productReference = 3179A06A1755D70000DD5771 /* InfoViewSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +163,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Thorsten Radde";
 			};
-			buildConfigurationList = 3179A0651755D70000DD5771 /* Build configuration list for PBXProject "WebInfoViewSample" */;
+			buildConfigurationList = 3179A0651755D70000DD5771 /* Build configuration list for PBXProject "InfoViewSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -152,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3179A0691755D70000DD5771 /* WebInfoViewSample */,
+				3179A0691755D70000DD5771 /* InfoViewSample */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +191,9 @@
 				3179A0841755D70100DD5771 /* Default-568h@2x.png in Resources */,
 				3179A08A1755D70100DD5771 /* TRViewController_iPhone.xib in Resources */,
 				3179A08D1755D70100DD5771 /* TRViewController_iPad.xib in Resources */,
+				3179A0981756648800DD5771 /* readme.html in Resources */,
+				3179A09B175664CA00DD5771 /* styles.css in Resources */,
+				3179A09C175664CA00DD5771 /* cream_dust.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +207,7 @@
 				3179A07A1755D70100DD5771 /* main.m in Sources */,
 				3179A07E1755D70100DD5771 /* TRAppDelegate.m in Sources */,
 				3179A0871755D70100DD5771 /* TRViewController.m in Sources */,
+				3179A0951756623200DD5771 /* TRInfoViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +303,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WebInfoViewSample/WebInfoViewSample-Prefix.pch";
-				INFOPLIST_FILE = "WebInfoViewSample/WebInfoViewSample-Info.plist";
+				GCC_PREFIX_HEADER = "WebInfoViewSample/InfoViewSample-Prefix.pch";
+				INFOPLIST_FILE = "WebInfoViewSample/InfoViewSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -287,8 +314,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WebInfoViewSample/WebInfoViewSample-Prefix.pch";
-				INFOPLIST_FILE = "WebInfoViewSample/WebInfoViewSample-Info.plist";
+				GCC_PREFIX_HEADER = "WebInfoViewSample/InfoViewSample-Prefix.pch";
+				INFOPLIST_FILE = "WebInfoViewSample/InfoViewSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -297,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3179A0651755D70000DD5771 /* Build configuration list for PBXProject "WebInfoViewSample" */ = {
+		3179A0651755D70000DD5771 /* Build configuration list for PBXProject "InfoViewSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3179A08E1755D70100DD5771 /* Debug */,
@@ -306,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3179A0901755D70100DD5771 /* Build configuration list for PBXNativeTarget "WebInfoViewSample" */ = {
+		3179A0901755D70100DD5771 /* Build configuration list for PBXNativeTarget "InfoViewSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3179A0911755D70100DD5771 /* Debug */,

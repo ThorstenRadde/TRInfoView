@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TRInfoViewViewController.h"
 
-@interface TRViewController : UIViewController
+@interface TRViewController : UIViewController {
+    TRInfoViewViewController *infoViewController;
+}
 
 @end
