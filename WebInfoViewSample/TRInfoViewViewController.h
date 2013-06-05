@@ -11,6 +11,7 @@
 @interface TRInfoViewViewController : UIViewController <UIWebViewDelegate> {
     UIWebView *_webView;
     NSString *_fileName;
+    BOOL _showNavbarOnExit;
 }
 
 - (id) initForFile: (NSString *)name;

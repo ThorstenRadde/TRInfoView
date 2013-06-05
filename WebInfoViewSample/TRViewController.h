@@ -13,4 +13,6 @@
     TRInfoViewViewController *infoViewController;
 }
 
+-(IBAction)showInfo:(id)sender;
+
 @end

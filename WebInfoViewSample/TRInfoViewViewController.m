@@ -15,12 +15,13 @@
 @implementation TRInfoViewViewController
 - (id) init {
     self = [super init];
-    if (self) {
-        //set title to navItem
-        [[self navigationItem] setTitle:@"Info"];
-        //default filename
-        _fileName = @"readme";
-    }
+    if (!self) { return nil; }
+
+    //set title to navItem
+    [[self navigationItem] setTitle:@"Info"];
+    //default filename
+    _fileName = @"readme";
+    
     return self;
 }
 
@@ -34,7 +35,9 @@
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    self.navigationController.navigationBarHidden = NO;
+    _showNavbarOnExit = self.navigationController.navigationBarHidden;
+    
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
     
     // add webView
     CGRect bounds = [self.view bounds];
@@ -42,31 +45,29 @@
     _webView.delegate = self;
     [self.view addSubview: _webView];
     
-    //build a request to display help.html
-    [_webView loadRequest:[NSURLRequest requestWithURL:
-                           [NSURL fileURLWithPath:[
-                                                   [NSBundle mainBundle] pathForResource:_fileName
-                                                   ofType:@"html"]
-                                      isDirectory:NO]]];
+    _webView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+    
+    //build a request to display html file
+    @try {
+        NSURL *fileURL =       [NSURL fileURLWithPath:[
+                                                       [NSBundle mainBundle] pathForResource:_fileName
+                                                       ofType:@"html"]
+                                          isDirectory:NO];
+        
+        [_webView loadRequest:[NSURLRequest requestWithURL: fileURL]];
+    }
+    @catch (NSException *exception) {
+        NSLog(@"Couldn't display html file, caught exception %@", exception);
+    }
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
-}
 
 - (void) viewWillDisappear: (BOOL) animated {
     [super viewWillDisappear:animated];
     
-	self.navigationController.navigationBarHidden = NO;
+    [self.navigationController setNavigationBarHidden:_showNavbarOnExit animated:YES];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType;
 {

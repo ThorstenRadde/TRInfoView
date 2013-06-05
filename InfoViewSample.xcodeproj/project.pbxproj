@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310C7663175FD7E4001669CF /* noisy.png in Resources */ = {isa = PBXBuildFile; fileRef = 310C7662175FD7E4001669CF /* noisy.png */; };
 		3179A06E1755D70000DD5771 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3179A06D1755D70000DD5771 /* UIKit.framework */; };
 		3179A0701755D70000DD5771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3179A06F1755D70000DD5771 /* Foundation.framework */; };
 		3179A0721755D70000DD5771 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3179A0711755D70000DD5771 /* CoreGraphics.framework */; };
@@ -22,10 +23,11 @@
 		3179A0951756623200DD5771 /* TRInfoViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3179A0941756623200DD5771 /* TRInfoViewViewController.m */; };
 		3179A0981756648800DD5771 /* readme.html in Resources */ = {isa = PBXBuildFile; fileRef = 3179A0971756648800DD5771 /* readme.html */; };
 		3179A09B175664CA00DD5771 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 3179A099175664CA00DD5771 /* styles.css */; };
-		3179A09C175664CA00DD5771 /* cream_dust.png in Resources */ = {isa = PBXBuildFile; fileRef = 3179A09A175664CA00DD5771 /* cream_dust.png */; };
+		3179A09E1757C29900DD5771 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3179A09D1757C29900DD5771 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		310C7662175FD7E4001669CF /* noisy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noisy.png; sourceTree = "<group>"; };
 		3179A06A1755D70000DD5771 /* InfoViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3179A06D1755D70000DD5771 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3179A06F1755D70000DD5771 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,7 +49,7 @@
 		3179A0941756623200DD5771 /* TRInfoViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRInfoViewViewController.m; path = WebInfoViewSample/TRInfoViewViewController.m; sourceTree = "<group>"; };
 		3179A0971756648800DD5771 /* readme.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = readme.html; sourceTree = "<group>"; };
 		3179A099175664CA00DD5771 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
-		3179A09A175664CA00DD5771 /* cream_dust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cream_dust.png; sourceTree = "<group>"; };
+		3179A09D1757C29900DD5771 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +130,8 @@
 				3179A0941756623200DD5771 /* TRInfoViewViewController.m */,
 				3179A0971756648800DD5771 /* readme.html */,
 				3179A099175664CA00DD5771 /* styles.css */,
-				3179A09A175664CA00DD5771 /* cream_dust.png */,
+				3179A09D1757C29900DD5771 /* icon.png */,
+				310C7662175FD7E4001669CF /* noisy.png */,
 			);
 			name = TRInfoView;
 			sourceTree = "<group>";
@@ -193,7 +196,8 @@
 				3179A08D1755D70100DD5771 /* TRViewController_iPad.xib in Resources */,
 				3179A0981756648800DD5771 /* readme.html in Resources */,
 				3179A09B175664CA00DD5771 /* styles.css in Resources */,
-				3179A09C175664CA00DD5771 /* cream_dust.png in Resources */,
+				3179A09E1757C29900DD5771 /* icon.png in Resources */,
+				310C7663175FD7E4001669CF /* noisy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +344,7 @@
 				3179A0921755D70100DD5771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
